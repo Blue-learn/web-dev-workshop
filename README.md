@@ -1,1 +1,1 @@
-# web-dev-workshop
+# Web Development Workshop
