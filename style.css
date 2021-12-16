@@ -1,0 +1,70 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  color: #fafafa;
+  background-color: #333;
+}
+
+/* Main Styles */
+.hero {
+  /* margin: 20px; */
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #4677ff;
+  height: 300px;
+}
+
+.projects {
+  margin: 20px 10px;
+}
+
+.project {
+  display: inline-block;
+  margin: 10px;
+  padding: 7px;
+  width: fit-content;
+  border: 2px solid #777;
+  border-radius: 5px;
+  background-color: #222;
+  text-align: initial;
+  /* background: #fafafa; */
+}
+
+.project h3,
+.project p {
+  margin-bottom: 5px;
+}
+
+.project #date {
+  color: #888;
+  font-size: 12px;
+  text-align: right;
+  margin: 0;
+}
+
+.project img {
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.project:first-child {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .projects {
+    text-align: center;
+  }
+}
